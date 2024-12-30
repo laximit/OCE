@@ -1,0 +1,136 @@
+@import './Fonts.scss';
+@import './General.scss';
+
+.story_contents {
+  display: flex;
+  justify-content: center;
+  width: calc(100vw - 1.1em);
+  margin: 10em auto;
+  background-color: $color-first;
+
+  @media (max-width: 768px) {
+    margin-top: 1em;
+  }
+}
+
+.age_rating {
+  font-family: "JetBrains Mono", monospace;
+  color: $color-text;
+  background-color: $color-second;
+  padding: .2em 1em;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.story_tags {
+  display: flex;
+  margin-top: .5em;
+  font-size: .8em;
+
+  span {
+    margin-left: .5em;
+    background-color: $color-third;
+    padding: 0 .5em;
+    border-radius: 3px;
+
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+  }
+}
+
+.story_body {
+  color: $color-text;
+  font-family: "JetBrains Mono", monospace;
+  width: 700px;
+  padding-bottom: 5em;
+  
+  @media (max-width: 768px) {
+    width: calc(100vw - 3em);
+  }
+}
+
+.story_inside-link {
+  text-decoration: none;
+  color: $color-text;
+  background-color: $color-accent;
+  padding: 0 .2em;
+  border-radius: 2px;
+  transition: .1s ease-in-out;
+  font-weight: 800;
+
+  &:hover {
+    color: $color-first;
+    background-color: $color-text;
+  }
+}
+
+.story_separator {
+  width: 100%;
+  max-width: 700px;
+  height: 3px;
+  background-color: $color-second;
+}
+
+.story_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story_img-file {
+  height: 25em;
+  display: block;
+  margin: auto;
+  border: 3px solid $color-second;
+
+  @media (max-width: 768px) {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.story_text {
+  font-size: 14px;
+}
+
+.story_title {
+  font-size: 2em;
+  margin: .3em 0;
+}
+
+.story_end {
+  font-family: 'Charm', serif;
+  font-size: 3em;
+  padding: auto;
+  text-align: center;
+}
+
+.story_notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: $color-text;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 2em;
+  font-weight: 1000;
+  text-align: center;
+  
+  .story_notfound-link {
+    text-decoration: none;
+    color: $color-text;
+    background-color: $color-accent;
+    padding: .2em .7em;
+    border-radius: 10px;
+    margin-top: 1em;
+    transition: .1s ease-in-out;
+    
+    &:hover {
+      color: $color-second;
+      background-color: $color-text;
+    }
+  }
+}
