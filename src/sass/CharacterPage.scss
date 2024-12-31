@@ -1,0 +1,136 @@
+@import './Fonts.scss';
+@import './General.scss';
+
+.character_contents {
+  display: flex;
+  justify-content: center;
+  width: calc(100vw - 1.1em);
+  margin: 10em auto;
+  background-color: $color-first;
+
+  @media (max-width: 768px) {
+    margin-top: 1em;
+  }
+}
+
+.character_tags {
+  display: flex;
+  margin-top: .5em;
+  font-size: .8em;
+
+  span {
+    margin-left: .5em;
+    background-color: $color-third;
+    padding: 0 .5em;
+    border-radius: 3px;
+
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+  }
+}
+
+.character_body {
+  color: $color-text;
+  font-family: "JetBrains Mono", monospace;
+  width: 700px;
+  padding-bottom: 5em;
+  
+  @media (max-width: 768px) {
+    width: calc(100vw - 3em);
+  }
+}
+
+.character_separator {
+  width: 100%;
+  max-width: 700px;
+  height: 3px;
+  background-color: $color-second;
+}
+
+.character_text {
+  font-size: 14px;
+}
+
+.character_title {
+  font-size: 2em;
+  margin: .3em 0;
+}
+
+.character_imgs {
+  margin-top: .5em;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ai_warning {
+  background-color: $color-third;
+  font-size: 12px;
+  padding: .2em .5em;
+  border-radius: 3px;
+}
+
+.character_img {
+  height: 10em;
+  border: .2em solid $color-third;
+}
+
+.character_notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: $color-text;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 2em;
+  font-weight: 1000;
+  text-align: center;
+  
+  .character_notfound-link {
+    text-decoration: none;
+    color: $color-text;
+    background-color: $color-accent;
+    padding: .2em .7em;
+    border-radius: 10px;
+    margin-top: 1em;
+    transition: .1s ease-in-out;
+    
+    &:hover {
+      color: $color-second;
+      background-color: $color-text;
+    }
+  }
+}
+
+.character_timeline-contents {
+  display: flex;
+  margin-top: .5em;
+  
+  .character_timeline-year {
+    font-size: 10px;
+    padding: .1em .4em;
+    background-color: $color-accent;
+    width: auto;
+    border-radius: 3px;
+    position: absolute;
+  }
+  
+  .character_timeline-item {
+    text-decoration: none;
+    color: $color-text;
+    background-color: $color-second;
+    padding: .2em .5em;
+    border-radius: 5px;
+    margin-top: .7em;
+
+    transition: .1s ease-in-out;
+
+    &:hover {
+      color: $color-first;
+      background-color: $color-text;
+    }
+  }
+}

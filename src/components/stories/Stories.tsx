@@ -16,13 +16,14 @@ export const stories = [
       { paragraph: "Lorem ipsum sit amet, consectetur adipiscing elit." },
       { paragraph: "Vestibulum viverra nisl urna, nec aliquet felis mollis eget." },
       { paragraph: "Donec ac leo convallis, aliquet velit non, vulputate nisi." }
-    ]
+    ],
   },
   {
     storyId: "1029_2",
     title: "Story 2",
     ageRating: "12 Anos",
     tags: [
+      "#laximit",
       "#ardan",
       "#fubuki"
     ],
@@ -31,7 +32,7 @@ export const stories = [
     links: [
       { paragraph: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
       { paragraph: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." }
-    ]
+    ],
   },
   {
     storyId: "1029_3",
@@ -47,6 +48,6 @@ export const stories = [
     links: [
       { paragraph: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
       { paragraph: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." }
-    ]
+    ],
   }
 ];
