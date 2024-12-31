@@ -15,18 +15,15 @@
 
 .character_tags {
   display: flex;
-  margin-top: .5em;
   font-size: .8em;
+  flex-wrap: wrap;
 
   span {
-    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .5em;
     background-color: $color-third;
     padding: 0 .5em;
     border-radius: 3px;
-
-    &:nth-child(1) {
-      margin-left: 0;
-    }
   }
 }
 

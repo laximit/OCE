@@ -98,6 +98,11 @@
   &:visited {
     color: $color-text
   }
+
+  &:hover {
+    text-decoration: underline;
+    font-weight: 600;
+  }
 }
 
 .button_top {

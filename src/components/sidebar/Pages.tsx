@@ -1,5 +1,3 @@
-import { BrowserRouter as Routes, Route } from 'react-router-dom';
-import Story from '../stories/Story';
  
 export interface LinkData { text: string; to: string; }
 
@@ -10,10 +8,25 @@ export const folders: FolderData[] = [
   {
     title: "1029",
     links: [
-      { text: "Test Story 1", to: "/story1" },
-      { text: "Test Story 2", to: "/story2" },
-      { text: "Test Story 3", to: "/story3" },
-      { text: "Test Char 1", to: "/char1" },
+      { text: "Sombras do Passado", to: "/historia/1029_1" },
+    ]
+  },
+  {
+    title: "1030",
+    links: [
+      
+    ]
+  },
+  {
+    title: "1031",
+    links: [
+      
+    ]
+  },
+  {
+    title: "1032",
+    links: [
+      { text: "O Nascer das Chamas Infernais", to: "/historia/1032_1" },
     ]
   },
 ];
