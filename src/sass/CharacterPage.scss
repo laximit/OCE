@@ -55,9 +55,9 @@
 }
 
 .character_imgs {
-  margin-top: .5em;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -71,6 +71,7 @@
 .character_img {
   height: 10em;
   width: 10em;
+  margin-top: .5em;
   object-fit: contain;
   border: .2em solid $color-third;
 }
@@ -106,30 +107,39 @@
 
 .character_timeline-contents {
   display: flex;
-  margin-top: .5em;
-  
-  .character_timeline-year {
-    font-size: 10px;
-    padding: .1em .4em;
-    background-color: $color-accent;
-    width: auto;
-    border-radius: 3px;
-    position: absolute;
-  }
-  
-  .character_timeline-item {
-    text-decoration: none;
-    color: $color-text;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character_timeline-item {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-third;
+  margin: .5em;
+  padding: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  color: $color-text;
+  transition: .1s ease-in-out;
+  width: 13em;
+  max-width: 13em;
+
+  &:hover {
     background-color: $color-second;
-    padding: .2em .5em;
-    border-radius: 5px;
-    margin-top: .7em;
-
-    transition: .1s ease-in-out;
-
-    &:hover {
-      color: $color-first;
-      background-color: $color-text;
-    }
   }
+}
+
+.character_timeline-title{
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 1.5em;
+}
+
+.character_timeline-year {
+  position: absolute;
+  font-size: 12px;
+  padding: .1em .5em;
+  background-color: $color-accent;
+  border-radius: 3px;
 }

@@ -11,13 +11,17 @@
   justify-content: center;
   align-items: center;
   color: $color-text;
-  @media (max-width: 768px) {
 
+  @media (max-width: 768px) {
+    margin-top: 5em;
+    padding-bottom: 5em;
   }
 }
 
 .homepage_buttons {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .homepage_button {
@@ -28,9 +32,14 @@
   cursor: pointer;
   font-weight: 800;
   transition: .1s ease-in-out;
+  margin-top: .5em;
 
   &:hover {
     background-color: $color-second;
+  }
+
+  &.selected {
+    background-color: $color-accent;
   }
 }
 
@@ -40,6 +49,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .homepage_button-text {
@@ -52,6 +65,10 @@
   height: 3px;
   margin: 1em 0;
   background-color: $color-second;
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+  }
 }
 
 .homepage_stories, .homepage_characters, .homepage_magics {

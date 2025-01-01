@@ -68,6 +68,15 @@ header {
         top: .5em;
         color: $color-text;
         left: .5em;
+
+        &.home {
+            left: auto;
+            right: .5em;
+
+            @media (min-width: 425px) {
+                display: none;
+            }
+        }
         
         &:hover {
             background-color: $color-third;

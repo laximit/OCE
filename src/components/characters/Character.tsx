@@ -41,7 +41,7 @@ function Character({characterId, characterTag}: CharacterProps) {
         </div>
         <h1 className="character_title">{character.name}</h1>
         <div className="character_separator"></div>
-        <span className="ai_warning">Aviso: Imagens feitas por IA são provisórias. </span>
+        <p className="ai_warning">Aviso: Imagens feitas por IA são provisórias. </p>
           <div className="character_imgs">
             {character.imgs.map((img, index) => (
               <img src={img} key={index} className="character_img" />
@@ -55,18 +55,17 @@ function Character({characterId, characterTag}: CharacterProps) {
           <h1 className="character_title">Linha do Tempo</h1>
         <div className="character_separator"></div>
         <div className="character_timeline">
-        {characterTimeline.map((story) => (
-            <div className="character_timeline-contents">
-              <span className="character_timeline-year">{story.storyYear}</span>
+          <div className="character_timeline-contents">
+            {characterTimeline.sort((a, b) => (a.storyId > b.storyId ? 1 : -1)).map((story) => (
               <Link 
                 className="character_timeline-item" 
-                to={`/OCE/historia/${story.storyId}`} 
-                onClick={scrollToTop}
-                >
-                  {story.title}
-                </Link>
-            </div>
-          ))}
+                to={story.storyLink}
+                onClick={scrollToTop}>
+                <span className="character_timeline-title">{story.title}</span>
+                <span className="character_timeline-year">{story.storyYear}</span>
+              </Link> 
+            ))}
+          </div>
         </div>
       </div>
     </div>

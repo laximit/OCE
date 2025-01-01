@@ -20,25 +20,31 @@ function Homepage() {
       <div className="homepage_wrapper">
         <div className="homepage_buttons">
           <div 
-            className="homepage_button"
+            className={`homepage_button ${activeTab === 'stories' ? 'selected' : ''}`}
             onClick={() => setActiveTab('stories')}  
           >
             <FontAwesomeIcon icon={faBook}/>
-            <span className="homepage_button-text">Histórias</span>
+            <span 
+              className="homepage_button-text">
+              Histórias</span>
           </div>
           <div 
-            className="homepage_button"
+            className={`homepage_button ${activeTab === 'characters' ? 'selected' : ''}`}
             onClick={() => setActiveTab('characters')}
           >
             <FontAwesomeIcon icon={faUser}/>
-            <span className="homepage_button-text">Personagens</span>
+            <span 
+              className="homepage_button-text">
+              Personagens</span>
           </div>
           <div 
-            className="homepage_button"
+            className={`homepage_button ${activeTab === 'magics' ? 'selected' : ''}`}
             onClick={() => setActiveTab('magics')}
           >
             <FontAwesomeIcon icon={faStar}/>
-            <span className="homepage_button-text">Magias</span>
+            <span 
+              className="homepage_button-text">
+              Magias</span>
           </div>
         </div>
         <div className="homepage_separator"></div>
