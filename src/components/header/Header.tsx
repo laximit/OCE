@@ -15,7 +15,7 @@ function Header({toggleSidebar, isSidebarVisible}: HeaderProps) {
                 <FontAwesomeIcon icon={isSidebarVisible ? faXmark: faBars}/>
             </div>
             <div className="header_title" id="headerTitle">
-                <Link className="header_title-text" to={"/"}>O CODEX ETERNO</Link>
+                <Link className="header_title-text" to={"/OCE"}>O CODEX ETERNO</Link>
             </div>
         </header>
     );

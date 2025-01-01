@@ -22,7 +22,7 @@ export const stories = [
       "#valthorn"
     ],
     storyYear: "1029",
-    storyLink: "/historia/1029_1",
+    storyLink: "/OCE/historia/1029_1",
     links: [
       { paragraph: <p><Link className="story_inside-link" to="/personagem/laximit">Laximit</Link> e as Bestas estavam descansando no topo de um alto prédio em Novark, após mais um dia sem problemas na cidade. <Link className="story_inside-link" to="/personagem/aera">Aera</Link> e <Link className="story_inside-link" to="/personagem/hiyou">Hiyou</Link> treinavam seus movimentos básicos de luta, <Link className="story_inside-link" to="/personagem/umbraza">Umbraza</Link> estava apoiado em uma parede, de olhos fechados, <Link className="story_inside-link" to="/personagem/nagael">Nagael</Link> estava sentado em um canto, lendo um de seus livros, <Link className="story_inside-link" to="/personagem/kouji">Kouji</Link> estava deitado com a cabeça no colo de <Link className="story_inside-link" to="/personagem/fubuki">Fubuki</Link>, enquanto ela lhe fazia um cafuné; e <Link className="story_inside-link" to="/personagem/raiya">Raiya</Link> estava agachada na borda do prédio. Então, Laximit se levanta.</p> },
       { paragraph: <p className="story_quote">- Laximit: *(bocejo)* Então, gente, acho que é hora de dar mais uma olhada por ai né?</p> },
@@ -134,7 +134,7 @@ export const stories = [
       "#valthorn"
     ],
     storyYear: "1032",
-    storyLink: "/historia/1032_1",
+    storyLink: "/OCE/historia/1032_1",
     links: [
       {paragraph: <p>Após uma árdua batalha contra <Link className="story_inside-link" to="/personagem/drakzor">Drakzor</Link>, <Link className="story_inside-link" to="/personagem/laximit">Laximit</Link> se encontra no chão, quase sem forças para lutar, com diversos ossos de seu corpo completamente despedaçados. <Link className="story_inside-link" to="/personagem/seraphine">Seraphine</Link> também se encontra sem forças, principalmente por conta do golpe que Drakzor lhe deu no abdômen.</p>},
       {paragraph: <p className="story_quote">- Laximit: '(ofegante) Ah, que- que merda, eu preciso logo levantar… vai… levanta!'</p>},

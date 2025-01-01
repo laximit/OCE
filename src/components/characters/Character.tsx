@@ -60,7 +60,7 @@ function Character({characterId, characterTag}: CharacterProps) {
               <span className="character_timeline-year">{story.storyYear}</span>
               <Link 
                 className="character_timeline-item" 
-                to={`/historia/${story.storyId}`} 
+                to={`/OCE/historia/${story.storyId}`} 
                 onClick={scrollToTop}
                 >
                   {story.title}
