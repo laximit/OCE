@@ -44,7 +44,7 @@ function App() {
           <Route path='/OCE/magia/memorathis' element={<Magic magicId='light1' />} />
 
           {/* Paginas Gerais */}
-          <Route path='/' element={<Homepage/>} />
+          <Route path='/OCE' element={<Homepage/>} />
         </Routes>
       </div>
     </Router>
