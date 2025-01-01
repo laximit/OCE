@@ -11,6 +11,13 @@ interface props {
 }
 
 function SidebarFolder({title, links}: props) {
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+
     return (
         <div className="sidebar_folder">
             <span className="sidebar_folder-title">{title}</span>
@@ -21,6 +28,7 @@ function SidebarFolder({title, links}: props) {
                   key={index} 
                   to={link.to}
                   className="sidebar_link"
+                  onClick={scrollToTop}
                   >{link.text}</Link>
               ))}
             </div>

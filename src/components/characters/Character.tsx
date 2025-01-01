@@ -24,6 +24,13 @@ function Character({characterId, characterTag}: CharacterProps) {
     story.tags.includes(characterTag)
   );
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <div className="character_contents">
       <div className="character_body">
@@ -51,7 +58,13 @@ function Character({characterId, characterTag}: CharacterProps) {
         {characterTimeline.map((story) => (
             <div className="character_timeline-contents">
               <span className="character_timeline-year">{story.storyYear}</span>
-              <Link className="character_timeline-item" to={`/historia/${story.storyId}`}>{story.title}</Link>
+              <Link 
+                className="character_timeline-item" 
+                to={`/historia/${story.storyId}`} 
+                onClick={scrollToTop}
+                >
+                  {story.title}
+                </Link>
             </div>
           ))}
         </div>

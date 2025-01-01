@@ -11,3 +11,22 @@ body {
     height: 100vh;
     background-color: $color-first;
 }
+
+
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: $color-second $color-first;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: $color-first;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: $color-second;
+  }

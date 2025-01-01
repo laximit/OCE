@@ -22,7 +22,7 @@ export const stories = [
       "#valthorn"
     ],
     storyYear: "1029",
-    storyOrder: "1",
+    storyLink: "/historia/1029_1",
     links: [
       { paragraph: <p><Link className="story_inside-link" to="/personagem/laximit">Laximit</Link> e as Bestas estavam descansando no topo de um alto prédio em Novark, após mais um dia sem problemas na cidade. <Link className="story_inside-link" to="/personagem/aera">Aera</Link> e <Link className="story_inside-link" to="/personagem/hiyou">Hiyou</Link> treinavam seus movimentos básicos de luta, <Link className="story_inside-link" to="/personagem/umbraza">Umbraza</Link> estava apoiado em uma parede, de olhos fechados, <Link className="story_inside-link" to="/personagem/nagael">Nagael</Link> estava sentado em um canto, lendo um de seus livros, <Link className="story_inside-link" to="/personagem/kouji">Kouji</Link> estava deitado com a cabeça no colo de <Link className="story_inside-link" to="/personagem/fubuki">Fubuki</Link>, enquanto ela lhe fazia um cafuné; e <Link className="story_inside-link" to="/personagem/raiya">Raiya</Link> estava agachada na borda do prédio. Então, Laximit se levanta.</p> },
       { paragraph: <p className="story_quote">- Laximit: *(bocejo)* Então, gente, acho que é hora de dar mais uma olhada por ai né?</p> },
@@ -68,7 +68,7 @@ export const stories = [
       { paragraph: <p className="story_quote">- Raiya: 'E agora, vai fazer o quê, me torturar?'</p> },
       { paragraph: <p className="story_quote">- Sr. Ravenhart: 'Torturar? Ha ha ha, você realmente não se lembra de nada, não é? Tortura é coisa da minha esposa. Eu gosto de fazer outra coisa... Ah, isso é quase nostálgico, se pelo menos eu não tivesse me livrado do Flicko...'</p> },
       { paragraph: <p>Nesse momento, o mundo de Raiya parou. Somente aquela palavra era necessária para desbloquear memórias que seu cérebro reprimia.</p> },
-      { paragraph: <p>Muitos anos atrás, uma pequena garota por volta de 12-13 anos se aproximava de uma mansão, completamente abatida e machucada, e assim que foi atendida por um casal, pergunta se teriam alguma comida para ela, mas ela se surpreendeu com a bondade do casal, que não só aceitou a alimentar, como permitiu que ela vivesse nesta mansão, ela então entrou de bom grado, conheceu seus dois filhos, duas crianças com um sorriso tão puro, assim como o cãozinho da familia, chamado de <Link className="story_inside-link" to="/personagem/flicko">Flicko.</Link></p> },
+      { paragraph: <p>Muitos anos atrás, uma pequena garota por volta de 12-13 anos se aproximava de uma mansão, completamente abatida e machucada, e assim que foi atendida por um casal, pergunta se teriam alguma comida para ela, mas ela se surpreendeu com a bondade do casal, que não só aceitou a alimentar, como permitiu que ela vivesse nesta mansão, ela então entrou de bom grado, conheceu seus dois filhos, duas crianças com um sorriso tão puro, assim como o cãozinho da familia, chamado de <Link className="story_inside-link" to="/personagem/flicko">Flicko</Link>.</p> },
       { paragraph: <p>Pela primeira vez na vida, ela foi feliz, dormia em uma cama, comia uma boa comida, tinha amigos pra brincar, até que um dia, após comer seu almoço, acabou adormecendo, acordou então em uma sala escura e fria, com grandes dores em todo seu corpo.</p> },
       { paragraph: <p>Ela foi até a porta e bateu nela, na esperança que alguém a libertasse, até que o homem que a acolheu abre a porta, ela pergunta o que houve, e o homem apenas diz que para ela permanecer na casa, precisava receber algo em troca, mas obviamente não iria cobrar nenhum dinheiro de uma simples criança, portanto, como pagamento resolveu pegar algo que considerava um preço justo, sua pureza.</p> },
       { paragraph: <p>A partir daquele dia, ao menos uma vez ao dia ele iria realizar atos sexuais com ela, e com seu corpo infantil, ela não suportava sentir essa dor enorme, porém, aceitou em sua mente que era um preço justo, afinal isso era melhor que viver sem um lar.</p> },
@@ -134,7 +134,7 @@ export const stories = [
       "#valthorn"
     ],
     storyYear: "1032",
-    storyOrder: "1",
+    storyLink: "/historia/1032_1",
     links: [
       {paragraph: <p>Após uma árdua batalha contra <Link className="story_inside-link" to="/personagem/drakzor">Drakzor</Link>, <Link className="story_inside-link" to="/personagem/laximit">Laximit</Link> se encontra no chão, quase sem forças para lutar, com diversos ossos de seu corpo completamente despedaçados. <Link className="story_inside-link" to="/personagem/seraphine">Seraphine</Link> também se encontra sem forças, principalmente por conta do golpe que Drakzor lhe deu no abdômen.</p>},
       {paragraph: <p className="story_quote">- Laximit: '(ofegante) Ah, que- que merda, eu preciso logo levantar… vai… levanta!'</p>},
@@ -160,7 +160,7 @@ export const stories = [
       {paragraph: <p className="story_quote">- Laximit e Hiyou: “eu… vou…”</p> },
       {paragraph: <p>Drakzor se vira de costas, surpreendido ao ver o corpo de seu adversário em pé, mesmo com cada centímetro de seu corpo tremendo. O simples fato de estar de pé era algo completamente impossível aos seus olhos.</p> },
       {paragraph: <p className="story_quote">- Drakzor: “O que? Como você ainda consegue ficar em-”</p> },
-      {paragraph: <p className="story_quote">- Laximit e Hiyou: “***EU VOU TE MATAAAAAAR!!!***”</p> },
+      {paragraph: <p className="story_quote">- Laximit e Hiyou: “EU VOU TE MATAAAAAAR!!!”</p> },
       {paragraph: <p>Ele então solta um grito estridente e rouco, como se estivesse sacrificando as próprias cordas vocais para um último ato de raiva.</p> },
       {paragraph: <p>Assim que grita, seu corpo é completamente tomado por chamas extremamente concentradas, tão poderosas que, em questão de milissegundos, o chão ao redor dele já estava completamente queimado.</p> },
       {paragraph: <p>Drakzor, esperando mais uma transformação de fogo, fica atento para qualquer ataque, mas acaba sendo surpreendido.</p> },

@@ -17,6 +17,7 @@
   scrollbar-width: none;
   border-radius: 5px;
   user-select: none;
+  z-index: 1000;
 
   &::-webkit-scrollbar {
     display: none;
@@ -58,6 +59,14 @@
   margin-top: .3em;
 }
 
+.sidebar_items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: .5em;
+}
+
+
 .sidebar_title {
   color: $color-text;
   background-color: $color-third;
@@ -66,12 +75,14 @@
   font-size: 1.1em;
   font-weight: 800;
   margin-bottom: 0;
+  position: sticky;
+  top: 0;
 }
 
 .sidebar_folder {
   margin: .5em;
   padding: .5em;
-  background-color: $color-third;
+  background-color: $color-first;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -127,5 +138,36 @@
 
   @media (max-width: 768px) {
     margin-bottom: 4em;
+  }
+}
+
+.sidebar_buttons {
+  background-color: $color-third;
+  width: 100%;
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
+
+  .sidebar_button {
+    background-color: $color-third;
+    border-radius: 5px;
+    color: $color-text;
+    width: 100%;
+    margin: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+    
+    &.selected {
+      background-color: $color-first;
+    }
+
+    &:hover {
+      background-color: $color-second;
+    }
   }
 }

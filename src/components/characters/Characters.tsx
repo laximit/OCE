@@ -42,8 +42,6 @@ import Morte from '../../assets/imgs/allys/mystic/umbraza/morte.png';
 
 import Duskbane1 from '../../assets/imgs/enemies/humans/Duskbane/duskbane1.jpg';
 
-
-
 // #endregion
 
 export const characters = [
@@ -51,10 +49,9 @@ export const characters = [
     characterId: "ally1",
     name: "Laximit",
     tags: [
-      "#personagem",
       "#humano",
+      "#aliado",
       "#principal",
-      "#aliado"
     ],
     abouts: [
       { paragraph: "Lorem ipsum dolor sit amet, incididunt id dolor id sint Lorem excepteur laborum eiusmod minim enim. Dolor cillum fugiat eiusmod occaecat laborum labore cupidatat." },
@@ -65,15 +62,15 @@ export const characters = [
       Laximit2,
       Laximit3,
     ],
+    link: "/personagem/laximit",
   },
   {
     characterId: "ally2",
     name: "Lenora",
     tags: [
-      "#personagem",
       "#humano",
+      "#aliado",
       "#principal",
-      "#aliado"
     ],
     abouts: [
       
@@ -82,15 +79,15 @@ export const characters = [
       Lenora1,
       Lenora2
     ],
+    link: "/personagem/lenora",
   },
   {
     characterId: "ally3",
     name: "Seraphine",
     tags: [
-      "#personagem",
       "#humano",
+      "#aliado",
       "#principal",
-      "#aliado"
     ],
     abouts: [
       
@@ -98,15 +95,15 @@ export const characters = [
     imgs: [
       Seraphine1
     ],
+    link: "/personagem/seraphine",
   },
   {
     characterId: "ally4",
     name: "Aera",
     tags: [
-      "#personagem",
       "#mistico",
-      "#principal",
       "#aliado",
+      "#principal",
     ],
     abouts: [
       
@@ -117,15 +114,15 @@ export const characters = [
       Espectro1,
       GaleWarden,
     ],
+    link: "/personagem/aera",
   },
   {
     characterId: "ally5",
     name: "Fubuki",
     tags: [
-      "#personagem",
       "#mistico",
-      "#principal",
       "#aliado",
+      "#principal",
     ],
     abouts: [
       
@@ -135,15 +132,15 @@ export const characters = [
       Fubuki2,
       Tirano,
     ],
+    link: "/personagem/fubuki",
   },
   {
     characterId: "ally6",
     name: "Haruna",
     tags: [
-      "#personagem",
       "#mistico",
-      "#principal",
       "#aliado",
+      "#principal",
     ],
     abouts: [
       
@@ -152,15 +149,15 @@ export const characters = [
       Haruna1,
       Nyxra2,
     ],
+    link: "/personagem/haruna",
   },
   {
     characterId: "ally7",
     name: "Hiyou",
     tags: [
-      "#personagem",
       "#mistico",
-      "#principal",
       "#aliado",
+      "#principal",
     ],
     abouts: [
       
@@ -169,15 +166,15 @@ export const characters = [
       Hiyou1,
       Hiyou2,
     ],
+    link: "/personagem/hiyou",
   },
   {
     characterId: "ally8",
     name: "Kouji",
     tags: [
-      "#personagem",
       "#mistico",
-      "#principal",
       "#aliado",
+      "#principal",
     ],
     abouts: [
       
@@ -185,16 +182,17 @@ export const characters = [
     imgs: [
       Kouji1,
       Kouji2,
+      Thallax,
     ],
+    link: "/personagem/kouji",
   },
   {
     characterId: "ally9",
     name: "Nagael",
     tags: [
-      "#personagem",
       "#mistico",
-      "#principal",
       "#aliado",
+      "#principal",
     ],
     abouts: [
       
@@ -204,15 +202,15 @@ export const characters = [
       Nagael2,
       Leviathan,
     ],
+    link: "/personagem/nagael",
   },
   {
     characterId: "ally10",
     name: "Raiya",
     tags: [
-      "#personagem",
       "#mistico",
-      "#principal",
       "#aliado",
+      "#principal",
     ],
     abouts: [
       
@@ -222,15 +220,15 @@ export const characters = [
       Raiya2,
       Guardiao,
     ],
+    link: "/personagem/raiya",
   },
   {
     characterId: "ally11",
     name: "Umbraza",
     tags: [
-      "#personagem",
       "#mistico",
-      "#principal",
       "#aliado",
+      "#principal",
     ],
     abouts: [
       
@@ -241,12 +239,12 @@ export const characters = [
       Abissal,
       Morte,
     ],
+    link: "/personagem/umbraza",
   },
   {
     characterId: "enemy1",
     name: "Drakzor",
     tags: [
-      "#personagem",
       "#demonio",
       "#inimigo",
     ],
@@ -256,12 +254,12 @@ export const characters = [
     imgs: [
       
     ],
+    link: "/personagem/drakzor",
   },
   {
     characterId: "enemy2",
     name: "Duskbane",
     tags: [
-      "#personagem",
       "#humano",
       "#inimigo",
       "#principal",
@@ -272,5 +270,6 @@ export const characters = [
     imgs: [
       Duskbane1,
     ],
+    link: "/personagem/duskbane",
   },
 ];

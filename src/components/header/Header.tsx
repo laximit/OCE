@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import '../../sass/Header.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 interface HeaderProps {
     toggleSidebar: () => void;
@@ -15,7 +16,7 @@ function Header({toggleSidebar, isSidebarVisible}: HeaderProps) {
                 <FontAwesomeIcon icon={isSidebarVisible ? faXmark: faBars}/>
             </div>
             <div className="header_title" id="headerTitle">
-                <span className="header_title-text">O CODEX ETERNO</span>
+                <Link className="header_title-text" to={"/"}>O CODEX ETERNO</Link>
             </div>
         </header>
     );

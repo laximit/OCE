@@ -4,6 +4,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Story from './components/stories/Story';
 import Character from './components/characters/Character';
+import Homepage from './components/general/Homepage';
 
 function App() {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
@@ -37,6 +38,9 @@ function App() {
           <Route path='/personagem/umbraza' element={<Character characterId='ally11' characterTag='#umbraza' />} />
           <Route path='/personagem/drakzor' element={<Character characterId='enemy1' characterTag='#drakzor' />} />
           <Route path='/personagem/duskbane' element={<Character characterId='enemy2' characterTag='#duskbane' />} />
+
+          {/* Paginas Gerais */}
+          <Route path='/' element={<Homepage/>} />
         </Routes>
       </div>
     </Router>

@@ -1,0 +1,122 @@
+@import './Fonts';
+@import './General';
+
+.homepage {
+  margin-top: 12em;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color-text;
+  @media (max-width: 768px) {
+
+  }
+}
+
+.homepage_buttons {
+  display: flex;
+}
+
+.homepage_button {
+  background-color: $color-third;
+  padding: .5em 1.5em;
+  border-radius: 5px;
+  margin: 0 .3em;
+  cursor: pointer;
+  font-weight: 800;
+  transition: .1s ease-in-out;
+
+  &:hover {
+    background-color: $color-second;
+  }
+}
+
+.homepage_wrapper {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage_button-text {
+  margin-left: .5em;
+}
+
+.homepage_separator {
+  width: 100%;
+  max-width: 700px;
+  height: 3px;
+  margin: 1em 0;
+  background-color: $color-second;
+}
+
+.homepage_stories, .homepage_characters {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+
+  &.unselected {
+    display: none;
+  }
+}
+
+.homepage_story, .homepage_character {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-third;
+  margin: .5em;
+  padding: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  color: $color-text;
+  transition: .1s ease-in-out;
+  width: 13em;
+  max-width: 13em;
+
+  &:hover {
+    background-color: $color-second;
+  }
+}
+
+.homepage_story-title{
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 1.5em;
+}
+
+.homepage_story-age {
+  position: absolute;
+  font-size: 12px;
+  padding: .1em .5em;
+  background-color: $color-accent;
+  border-radius: 3px;
+}
+
+.homepage_character-img {
+  height: 13em;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.homepage_character-title {
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: .5em;
+}
+
+.homepage_character-info {
+  display: flex;
+
+  span {
+    font-size: 12px;
+    border-radius: 3px;
+    margin-right: .5em;
+    padding: .1em .5em;
+    background-color: $color-accent;
+  }
+}

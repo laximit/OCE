@@ -70,6 +70,8 @@
 
 .character_img {
   height: 10em;
+  width: 10em;
+  object-fit: contain;
   border: .2em solid $color-third;
 }
 

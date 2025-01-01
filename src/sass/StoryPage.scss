@@ -49,16 +49,15 @@
 
 .story_inside-link {
   text-decoration: underline;
-  color: $color-text;
-  background-color: $color-accent;
   padding: 0 .2em;
   border-radius: 2px;
   transition: .1s ease-in-out;
   font-weight: 800;
+  color: $color-text;
 
   &:hover {
-    color: $color-first;
-    background-color: $color-text;
+    color: $color-text;
+    background-color: $color-accent;
   }
 }
 

@@ -12,18 +12,6 @@ export const folders: FolderData[] = [
     ]
   },
   {
-    title: "1030",
-    links: [
-      
-    ]
-  },
-  {
-    title: "1031",
-    links: [
-      
-    ]
-  },
-  {
     title: "1032",
     links: [
       { text: "O Nascer das Chamas Infernais", to: "/historia/1032_1" },
