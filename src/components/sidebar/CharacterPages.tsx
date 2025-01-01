@@ -7,29 +7,29 @@ export const folders: FolderData[] = [
   {
     title: "Humanos",
     links: [
-      { text: "Laximit", to: "/personagem/laximit" },
-      { text: "Lenora", to: "/personagem/lenora" },
-      { text: "Seraphine", to: "/personagem/seraphine" },
-      { text: "Duskbane", to: "/personagem/duskbane" },
+      { text: "Laximit", to: "/OCE/personagem/laximit" },
+      { text: "Lenora", to: "/OCE/personagem/lenora" },
+      { text: "Seraphine", to: "/OCE/personagem/seraphine" },
+      { text: "Duskbane", to: "/OCE/personagem/duskbane" },
     ]
   },
   {
     title: "Criaturas Misticas",
     links: [
-      { text: "Aera", to: "/personagem/aera" },
-      { text: "Haruna", to: "/personagem/haruna" },
-      { text: "Fubuki", to: "/personagem/fubuki" },
-      { text: "Kouji", to: "/personagem/kouji" },
-      { text: "Umbraza", to: "/personagem/umbraza" },
-      { text: "Nagael", to: "/personagem/nagael" },
-      { text: "Hiyou", to: "/personagem/hiyou" },
-      { text: "Raiya", to: "/personagem/raiya" },
+      { text: "Aera", to: "/OCE/personagem/aera" },
+      { text: "Haruna", to: "/OCE/personagem/haruna" },
+      { text: "Fubuki", to: "/OCE/personagem/fubuki" },
+      { text: "Kouji", to: "/OCE/personagem/kouji" },
+      { text: "Umbraza", to: "/OCE/personagem/umbraza" },
+      { text: "Nagael", to: "/OCE/personagem/nagael" },
+      { text: "Hiyou", to: "/OCE/personagem/hiyou" },
+      { text: "Raiya", to: "/OCE/personagem/raiya" },
     ]
   },
   {
     title: "Demônios",
     links: [
-      { text: "Drakzor", to: "/personagem/drakzor" },
+      { text: "Drakzor", to: "/OCE/personagem/drakzor" },
     ]
   },
 ];

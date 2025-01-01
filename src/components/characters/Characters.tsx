@@ -62,7 +62,7 @@ export const characters = [
       Laximit2,
       Laximit3,
     ],
-    link: "/personagem/laximit",
+    link: "/OCE/personagem/laximit",
   },
   {
     characterId: "ally2",
@@ -79,7 +79,7 @@ export const characters = [
       Lenora1,
       Lenora2
     ],
-    link: "/personagem/lenora",
+    link: "/OCE/personagem/lenora",
   },
   {
     characterId: "ally3",
@@ -95,7 +95,7 @@ export const characters = [
     imgs: [
       Seraphine1
     ],
-    link: "/personagem/seraphine",
+    link: "/OCE/personagem/seraphine",
   },
   {
     characterId: "ally4",
@@ -114,7 +114,7 @@ export const characters = [
       Espectro1,
       GaleWarden,
     ],
-    link: "/personagem/aera",
+    link: "/OCE/personagem/aera",
   },
   {
     characterId: "ally5",
@@ -132,7 +132,7 @@ export const characters = [
       Fubuki2,
       Tirano,
     ],
-    link: "/personagem/fubuki",
+    link: "/OCE/personagem/fubuki",
   },
   {
     characterId: "ally6",
@@ -149,7 +149,7 @@ export const characters = [
       Haruna1,
       Nyxra2,
     ],
-    link: "/personagem/haruna",
+    link: "/OCE/personagem/haruna",
   },
   {
     characterId: "ally7",
@@ -166,7 +166,7 @@ export const characters = [
       Hiyou1,
       Hiyou2,
     ],
-    link: "/personagem/hiyou",
+    link: "/OCE/personagem/hiyou",
   },
   {
     characterId: "ally8",
@@ -184,7 +184,7 @@ export const characters = [
       Kouji2,
       Thallax,
     ],
-    link: "/personagem/kouji",
+    link: "/OCE/personagem/kouji",
   },
   {
     characterId: "ally9",
@@ -202,7 +202,7 @@ export const characters = [
       Nagael2,
       Leviathan,
     ],
-    link: "/personagem/nagael",
+    link: "/OCE/personagem/nagael",
   },
   {
     characterId: "ally10",
@@ -220,7 +220,7 @@ export const characters = [
       Raiya2,
       Guardiao,
     ],
-    link: "/personagem/raiya",
+    link: "/OCE/personagem/raiya",
   },
   {
     characterId: "ally11",
@@ -239,7 +239,7 @@ export const characters = [
       Abissal,
       Morte,
     ],
-    link: "/personagem/umbraza",
+    link: "/OCE/personagem/umbraza",
   },
   {
     characterId: "enemy1",
@@ -254,7 +254,7 @@ export const characters = [
     imgs: [
       
     ],
-    link: "/personagem/drakzor",
+    link: "/OCE/personagem/drakzor",
   },
   {
     characterId: "enemy2",
@@ -270,6 +270,6 @@ export const characters = [
     imgs: [
       Duskbane1,
     ],
-    link: "/personagem/duskbane",
+    link: "/OCE/personagem/duskbane",
   },
 ];

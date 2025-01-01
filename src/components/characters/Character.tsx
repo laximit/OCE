@@ -15,7 +15,7 @@ function Character({characterId, characterTag}: CharacterProps) {
     return (
       <div className="character_notfound">
         <span className="character_notfound-text">Desculpe, essa página<br />não está disponível.</span>
-        <Link className="character_notfound-link" to={'/personagem/testchar'}>Voltar ao Início</Link>
+        <Link className="character_notfound-link" to={'/OCE'}>Voltar ao Início</Link>
       </div>
     );
   }

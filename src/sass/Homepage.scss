@@ -54,7 +54,7 @@
   background-color: $color-second;
 }
 
-.homepage_stories, .homepage_characters {
+.homepage_stories, .homepage_characters, .homepage_magics {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -65,7 +65,7 @@
   }
 }
 
-.homepage_story, .homepage_character {
+.homepage_story, .homepage_character, .homepage_magic {
   display: flex;
   flex-direction: column;
   background-color: $color-third;
@@ -119,4 +119,17 @@
     padding: .1em .5em;
     background-color: $color-accent;
   }
+}
+
+.homepage_magic-title {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.homepage_magic-element {
+  font-size: 12px;
+  border-radius: 3px;
+  margin-right: .5em;
+  padding: .1em .5em;
+  background-color: $color-accent;
 }

@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import '../../sass/Header.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";

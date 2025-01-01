@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { characters } from "../characters/Characters";
 import { stories } from "../stories/Stories";
-import { faBook, faUser } from "@fortawesome/free-solid-svg-icons";
-import { characterTags, storyTags } from "./GlobalTags";
+import { magics } from "../magics/Magics";
+import { faBook, faStar, faUser } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import '../../sass/Homepage.scss'
 import { useState } from "react";
@@ -33,6 +33,13 @@ function Homepage() {
             <FontAwesomeIcon icon={faUser}/>
             <span className="homepage_button-text">Personagens</span>
           </div>
+          <div 
+            className="homepage_button"
+            onClick={() => setActiveTab('magics')}
+          >
+            <FontAwesomeIcon icon={faStar}/>
+            <span className="homepage_button-text">Magias</span>
+          </div>
         </div>
         <div className="homepage_separator"></div>
         <span className="homepage_title">{titles.activeTab}</span>
@@ -59,6 +66,19 @@ function Homepage() {
                 <div className="homepage_character-info">
                   <span className="homepage_character-race">{character.tags[0]}</span>
                   <span className="homepage_character-side">{character.tags[1]}</span>
+                </div>
+              </Link>  
+            ))}
+          </div>
+          <div 
+            className={`homepage_magics ${activeTab === 'magics' ? '' : 'unselected'}`}>
+            {magics
+              .sort((a, b) => (a.magicId > b.magicId ? 1 : -1))
+              .map((magic) => (
+              <Link className="homepage_magic" to={magic.link}>
+                <span className="homepage_magic-title">{magic.name}</span>
+                <div className="homepage_magic-info">
+                  <span className="homepage_magic-element">{magic.element}</span>
                 </div>
               </Link>  
             ))}

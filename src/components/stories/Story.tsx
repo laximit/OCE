@@ -13,7 +13,7 @@ function Story({ storyId }: StoryProps) {
     return (
       <div className="story_notfound">
         <span className="story_notfound-text">Desculpe, essa página<br />não está disponível.</span>
-        <Link className="story_notfound-link" to={'/historia/teststory1'}>Voltar ao Início</Link>
+        <Link className="story_notfound-link" to={'/OCE'}>Voltar ao Início</Link>
       </div>
     );
   }
@@ -30,7 +30,7 @@ function Story({ storyId }: StoryProps) {
         <h1 className="story_title">{story.title}</h1>
         <div className="story_separator"></div>
           {story.links.map((link,index) => (
-            <p className="story_text">{link.paragraph}</p>
+            <p className="story_text" key={index}>{link.paragraph}</p>
           ))}
         <div className="story_separator"></div>
         <div className="story_end">Fim.</div>

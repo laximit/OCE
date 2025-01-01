@@ -2,10 +2,6 @@ import { folders } from "./MagicPages";
 import SidebarFolder from "./SidebarFolder";
 import '../../sass/Sidebar.scss';
 
-interface FolderData {
-  title: string;
-  links: {text: string; to: string;}[];
-}
 
 function MagicItems() {
   return (

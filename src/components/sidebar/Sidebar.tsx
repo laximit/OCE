@@ -6,11 +6,6 @@ import SummaryItems from './SummaryItems';
 import MagicItems from './MagicItems';
 import CharacterItems from './CharacterItems';
 
-interface FolderData {
-  title: string;
-  links: {text: string; to: string;}[];
-}
-
 interface SidebarProps {
   isVisible: boolean;
 }

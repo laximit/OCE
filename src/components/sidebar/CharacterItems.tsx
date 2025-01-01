@@ -2,11 +2,6 @@ import { folders } from "./CharacterPages";
 import SidebarFolder from "./SidebarFolder";
 import '../../sass/Sidebar.scss';
 
-interface FolderData {
-  title: string;
-  links: {text: string; to: string;}[];
-}
-
 function CharacterItems() {
   return (
     <div className="sidebar_items">

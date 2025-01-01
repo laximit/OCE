@@ -7,7 +7,7 @@ export const folders: FolderData[] = [
   {
     title: "Luz",
     links: [
-      { text: "Memorathis", to: "/magia/memorathis" },
+      { text: "Memorathis", to: "/OCE/magia/memorathis" },
     ]
   },
 ];

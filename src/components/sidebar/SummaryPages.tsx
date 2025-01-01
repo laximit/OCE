@@ -8,13 +8,13 @@ export const folders: FolderData[] = [
   {
     title: "1029",
     links: [
-      { text: "Sombras do Passado", to: "/historia/1029_1" },
+      { text: "Sombras do Passado", to: "/OCE/historia/1029_1" },
     ]
   },
   {
     title: "1032",
     links: [
-      { text: "O Nascer das Chamas Infernais", to: "/historia/1032_1" },
+      { text: "O Nascer das Chamas Infernais", to: "/OCE/historia/1032_1" },
     ]
   },
 ];
